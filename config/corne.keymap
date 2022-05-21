@@ -8,13 +8,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define L_DEFAULT = 0
-#define L_NUMBER = 1
-#define L_SYMBOL = 2
-#define L_FUNCTION = 3
-#define L_MOUSE = 4
-#define L_NAV = 5
-#define L_MEDIA = 6
+#define DEFAULT 0
+#define NUMBER 1
+#define SYMBOL 2
+#define FUNCTION 3
+#define MOUSE 4
+#define NAV 5
+#define MEDIA 6
 
                 compatible = "zmk,keymap";
 
@@ -28,7 +28,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp EQUAL
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-   &mt L_FUNCTION LGUI &mt L_SYMBOL TAB &mt L_NUMBER SPACE &mt L_NAV RET &mt L_MOUSE BSPC &kp ALT
+   &mt FUNCTION LGUI &mt SYMBOL TAB &mt NUMBER SPACE &mt NAV RET &mt MOUSE BSPC &kp ALT
                         >;
                 };
                 number_layer {
