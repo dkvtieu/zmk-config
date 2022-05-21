@@ -30,7 +30,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp EQUAL
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-   &mt FUNCTION LGUI &mt SYMBOL TAB &mt NUMBER SPACE &mt NAV RET &mt MOUSE BSPC &kp ALT
+   &lt FUNCTION LGUI &lt SYMBOL TAB &lt NUMBER SPACE &lt NAV RET &lt MOUSE BSPC &kp ALT
                         >;
                 };
                 number_layer {
